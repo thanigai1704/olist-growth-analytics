@@ -1,0 +1,20 @@
+# --- data: never commit datasets, databases or analysis outputs ---
+data/raw/
+data/db/
+data/exports/
+data/db_load_report.txt
+
+# --- environments/ops ---
+.venv/
+venv/
+__pycache__/
+*.pyc
+.kaggle/
+streamlit_app/.streamlit/secrets.toml
+
+# --- local tooling ---
+*.log
+app_out.log
+app_err.log
+app_pid.txt
+.qc/

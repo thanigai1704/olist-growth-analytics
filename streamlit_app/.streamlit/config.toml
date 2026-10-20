@@ -1,0 +1,17 @@
+# GrowthLens Analytics theme (Noir Gold: gold on black, serif headings)
+[theme]
+base = "dark"
+primaryColor = "#D4AF37"
+backgroundColor = "#0D0D10"
+secondaryBackgroundColor = "#16161B"
+textColor = "#F1E9D2"
+font = "sans serif"
+
+# pages are linked through the custom top nav tabs (common.py)
+[client]
+showSidebarNavigation = false
+
+[server]
+headless = true
+address = "127.0.0.1"
+port = 8501
