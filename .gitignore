@@ -1,7 +1,7 @@
-# --- data: never commit datasets, databases or analysis outputs ---
+# --- data: never commit datasets or the database (exports ARE committed — the
+#     cloud app reads the 12 CSVs directly, so regeneration stays local-only) ---
 data/raw/
 data/db/
-data/exports/
 data/db_load_report.txt
 
 # --- environments/ops ---
